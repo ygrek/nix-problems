@@ -11,7 +11,7 @@ Guix uses so called [[https://guix.gnu.org/manual/en/html_node/Build-Systems.htm
   - Examples would include the Maven and TeX Live ecosystems.
   - This ensures consistency within these ecosystems.
 - All of these build systems are in a single place (see points below) - this helps keep the different build systems consistent in behaviour.
-  - https://github.com/guix-mirror/guix/tree/master/guix/build
+  - https://codeberg.org/guix/guix/src/branch/master/guix/build
   - https://guix.gnu.org/manual/en/html_node/Build-Systems.html
 - Combined these ensure /global/ consistency in the approaches used for handling different toolchains across all the definitions.
 - Nix /does/ have build phases, and even something similar to build systems, but...
